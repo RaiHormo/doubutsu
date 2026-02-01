@@ -1,4 +1,5 @@
 # Welcome 󰊴
+# Welcome to Bazzirco 󰊴
 󱋩 `%IMAGE_NAME%:%IMAGE_BRANCH%`
 󰟀 `%GREENBOOT%`
 
