@@ -62,7 +62,11 @@ dnf5 -y copr enable pvermeer/gamescope-session-guide
 dnf5 -y copr disable pvermeer/gamescope-session-guide
 dnf5 -y --enablerepo copr:copr.fedorainfracloud.org:pvermeer:gamescope-session-guide install gamescope-session-guide
 
+# Adding howdy for face unlocking
+sudo dnf copr enable principis/howdy
+sudo dnf --refresh install howdy
 
+# Other system packages
 dnf -y install \
     greetd \
     greetd-selinux \
@@ -73,7 +77,7 @@ dnf -y install \
     fastfetch \
     fcitx5-mozc \
     flatpak \
-    foot \
+    ptyxis \	#Foot terminal is stupid. Let's use Ptyxis instead
     fpaste \
     fzf \
     git-core \
@@ -101,6 +105,7 @@ dnf -y install \
     xdg-terminal-exec \
     xdg-user-dirs \
     xwayland-satellite \
+    micro \		# Better nano
 	
 
 # we already have a service for handling fcitx5
