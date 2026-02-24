@@ -63,9 +63,9 @@ dnf5 -y copr disable pvermeer/gamescope-session-guide
 dnf5 -y --enablerepo copr:copr.fedorainfracloud.org:pvermeer:gamescope-session-guide install gamescope-session-guide
 
 # Adding howdy for face unlocking
-dnf copr enable principis/howdy -y
-dnf --refresh install howdy -y
-dnf copr disable principis/howdy -y
+dnf5 -y copr enable principis/howdy
+dnf5 -y copr disable principis/howdy
+dnf5 -y --enablerepo copr:copr.fedorainfracloud.org:principis:howdy install howdy
 
 # Other system packages
 dnf -y install \
