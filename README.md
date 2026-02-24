@@ -1,29 +1,25 @@
 # Bazzirco
-This is a quick and dirty image which combines the best of [Bazzite](https://bazzite.gg/) and [Zirconium](https://zirconium.gay/).
-
-Deck images exist, and do work, but they're a WIP due to a lack of controller navigability.
+A fork of (Bazzirco)[https://github.com/bazzirco/bazzirco] which adds a gamescope session to the regular image, and  bunch of personal preferences.
 
 To install, install Bazzite (preferably the GNOME image, KDE does work though), and rebase with one of these commands. Nvidia images are GTX 16XX or newer.
 
 ## Regular Images
 AMD/Intel image:
 ```
-sudo bootc switch ghcr.io/bazzirco/bazzirco
+sudo bootc switch ghcr.io/Haxorzz/doubutsu
 ```
 
 Nvidia image:
 ```
-sudo bootc switch ghcr.io/bazzirco/bazzirco-nvidia
+sudo bootc switch ghcr.io/Haxorzz/doubutsu-nvidia
 ```
 # Developer Experience (DX) images
 AMD/Intel image:
 ```
-sudo bootc switch ghcr.io/bazzirco/bazzirco-dx
+sudo bootc switch ghcr.io/Haxorzz/doubutsu-dx
 ```
 
 Nvidia image:
 ```
-sudo bootc switch ghcr.io/bazzirco/bazzirco-dx-nvidia
+sudo bootc switch ghcr.io/Haxorzz/doubutsu-dx-nvidia
 ```
-
-[Join the Zirconium Discord](https://discord.gg/mmgNQpxwhW)!
